@@ -1,0 +1,14 @@
+.body{
+    height: 100vh;
+}
+
+.AboutSection-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: calc(100vh);
+    max-height: 100%;
+    padding: 0rem calc((100vw - 1300px) / 2);
+}
