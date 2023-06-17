@@ -7,8 +7,6 @@ function App() {
     <div className="HeroSection">
       <HeroSection />
       <AboutSection />
-      <HeroSection />
-      <AboutSection />
     </div>
   );
 }
