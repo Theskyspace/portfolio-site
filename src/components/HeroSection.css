@@ -1,68 +1,120 @@
-:root{
+:root {
     --light-purple: #A7C3E5;
     --green: #64FFDA;
     --muted-text-color: #A19A8F;
-    --font-sans: 'Calibre','Inter','San Francisco','SF Pro Text',-apple-system,system-ui,sans-serif;
-    --font-mono: 'SF Mono','Fira Code','Fira Mono','Roboto Mono',monospace;
+    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
     --fs-xl: clamp(40px, 8vw, 80px);
     -fs-xs: 1rem;
 }
 
 
-.body{
+.body {
     height: 100vh;
 }
 
-.HeroSection-content{
+.HeroSection-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     height: calc(100vh);
     max-height: 100%;
-    padding: 0rem  max(calc((100vw - 1300px) / 2) , 2rem);
+    padding: 0rem max(calc((100vw - 1200px) / 2), 2rem);
 }
 
-.content{
+.content {
     height: 80%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.content h1{
+.content h1 {
     font-size: var(--fs-xl);
     margin: 0rem;
     font-family: (--font-sans);
-   
+
 }
 
-.content .heading{
+.content .heading {
     color: var(--light-purple);
     font-weight: 700;
 
 }
 
-.content .subheading{
+.content .subheading {
     color: var(--muted-text-color);
     font-weight: 500;
 }
 
-.content h4{
+.content h4 {
     font-size: var(--fs-xs);
     font-weight: 400;
     font-family: var(--font-mono);
     margin: 0rem 0rem 2rem 0rem;
     color: var(--green);
-   
+
 }
 
-.content p{
+.content p {
     margin: 1rem 0rem 0rem 0rem;
     font-size: var(--fs-xs);
     font-family: var(--font-sans);
     max-width: 540px;
     display: block;
     line-height: 20px;
-    color: var(--muted-text-color);   
+    color: var(--muted-text-color);
+}
+
+
+.vertical-line {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    
+}
+
+.left {
+    right: 0;
+    padding: 0rem 1rem 0rem 0rem;
+}
+
+.right {
+    left: 0;
+    padding: 0rem 0rem 0rem 3rem;
+}
+
+.right svg{
+    height: 20px;
+    padding: 15px;
+    stroke-width: 1.5px;
+    stroke: var(--muted-text-color);
+}
+
+.right svg:hover {
+    stroke: var(--green);
+    transition: 1s;
+}
+
+.line {
+    flex-grow: 1;
+    height: 10vh;
+    border-left: 1px solid #A19A8F;
+}
+
+.line-text a {
+    color: #A19A8F;
+    padding-bottom: 1rem;
+    font-family: var(--font-mono);
+    font-weight: 100;
+    font-size: small;
+    text-decoration: none;
+    letter-spacing: 0.1rem;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    margin: 0 10px;
+    transform-origin: center center;
 }
