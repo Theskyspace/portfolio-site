@@ -1,0 +1,59 @@
+:root {
+    --green: #64FFDA;
+    --nav-muted-white: #A19A8F;
+    --navy-shadow: #01112a;
+    --nav-height: 100px;
+    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --fz-xxs: 15px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    height: var(--nav-height);
+    width: 100%;
+    background-color: #010a17c0;
+    transition: transform 0.4s;
+    backdrop-filter: blur(10px);
+}
+
+
+
+.visible {
+    transform: translateY(0);
+    
+}
+
+.hidden {
+    transform: translateY(-100%);
+    box-shadow: 0 10px 30px -10px var(--navy-shadow);
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 20px;
+    font-family: var(--font-mono);
+    font-size: var(--fz-xxs);
+    color: var(--green);
+    user-select: none;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: var(--nav-muted-white);
+    cursor: pointer;
+
+}
+
+.navbar ul a:hover {
+    color: var(--green);
+    transition: 0.9s;
+}
+
+.navbar .Resume-button {
+    color: var(--green);
+    padding: 10px 20px;
+    border: 0.09rem solid;
+    border-radius: 5px;
+}

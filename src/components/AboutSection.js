@@ -3,6 +3,6 @@ import './AboutSection.css'
 
 export default function AboutSection() {
   return (
-    <div className='AboutSection-content'>AboutSection</div>
+    <div className='AboutSection-content' id="AboutSection-content">AboutSection</div>
   )
 }
