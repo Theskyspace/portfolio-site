@@ -20,7 +20,7 @@
     align-items: flex-start;
     height: calc(100vh);
     max-height: 100%;
-    padding: 0rem max(calc((100vw - 1200px) / 2), 2rem);
+    padding: 0rem max(calc((100vw - 1200px) / 2), 120px);
 }
 
 .content {
@@ -78,13 +78,13 @@
 }
 
 .left {
-    right: 0;
-    padding: 0rem 1rem 0rem 0rem;
+    right: 40px;
+    /* padding: 0rem 1rem 0rem 0rem; */
 }
 
 .right {
-    left: 0;
-    padding: 0rem 0rem 0rem 3rem;
+    left: 40px;
+    /* padding: 0rem 0rem 0rem 3rem; */
 }
 
 .right svg{
@@ -117,4 +117,16 @@
     text-orientation: mixed;
     margin: 0 10px;
     transform-origin: center center;
+}
+
+
+/* Media Queries */
+/* Tablet */
+@media screen and (max-width: 768px) {
+    .vertical-line{
+        visibility: hidden;
+    }
+    .HeroSection-content{
+        padding: 0rem 2rem;
+    }
 }
