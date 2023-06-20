@@ -1,9 +1,130 @@
-.ExperienceSection{
-    height: 100vh;
-    max-height: 100%;
+.ExperienceSection {
+    height: fit-content;
+    min-height: 100vh;
     padding: 0rem max(calc((100vw - 1000px) / 2), 7rem);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.inner-worked {
+    grid-template-columns: 1fr 3fr;
+}
+
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    /* background-color: var(--muted-text-color); */
+    opacity: 0.8;
+    line-height: 25px;
+}
+
+.tabs {
+    padding: 1rem 1rem 1rem 2rem;
+    border-left-style: solid;
+    border-color: #7e7c7ca5;
+    color: #8892b0;
+    border-width: 1.5px;
+    font-family: var(--font-mono);
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.tabs-active {
+    border-color: var(--green);
+    color: var(--green);
+    border-width: 3px;
+}
+
+.content-worked {
+    height: 100%;
+    width: 80%;
+    /* background-color: aliceblue; */
+}
+
+
+.xp-heading {
+    font-family: var(--font-sans);
+    font-size: 1.5rem;
+    color: #ecf0fc;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.xp-duration {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: #8892b0;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+
+.xp-content {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    color: #8892b0;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    line-height: 25px;
+}
+
+.experience-content {
+    display: none;
+}
+
+.active-content {
+    display: block;
+}
+
+.fadein{
+    animation: fadein 1s ease-in-out;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .ExperienceSection {
+        padding: 0rem 1rem;
+    }
+
+    .tab-content {
+        display: grid;
+        grid-auto-flow: column;
+        grid-template-columns: 1fr;
+        align-items: flex-start;
+        overflow-x: auto;
+    }
+
+    .tab-content::-webkit-scrollbar {
+        display: none;
+    }
+
+    .content-worked {
+        width: 100%;
+    }
+
+    .tabs {
+        flex-grow: 1;
+        white-space: nowrap;
+        border: none;
+        border-bottom-style: solid;
+        margin-bottom: 10px;
+    }
+
+    .inner-worked {
+        grid-template-columns: 1fr;
+    }
+
 }
