@@ -14,9 +14,9 @@
 .AboutSection-content{
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     text-align: start;
-    height: calc(100vh);
+    height: max(fit-content , 100vh);
     max-height: 100%;
     padding: 0rem max(calc((100vw - 1000px) / 2), 7rem);
 }
@@ -35,6 +35,7 @@
     font-weight: 400;
 }
 
+
 .inner{
     display: grid;
     grid-template-columns: 3fr 2fr;
@@ -43,16 +44,20 @@
     height: 100%;
 }
 
-.inner .content{
+.inner .about-content{
     justify-content: start;
     height: 100%;
     color: var(--muted-text-color);
+    opacity: 0.8;
+    line-height: 25px;
 }
 
 
 .inner .image{
     box-sizing: inherit;
 }
+
+
 
 .skill-list{
     display: grid;
@@ -62,7 +67,7 @@
     margin: 20px 0px 0px;
     overflow: hidden;
     list-style: none;
-    opacity: 0.6;
+    color: var(--muted-text-color);
 }
 
 .skill-list li::before{
@@ -103,7 +108,7 @@
         grid-template-columns: 1fr;
     }
 
-    .content{
+    .about-content{
         justify-content: center;
     }
 }

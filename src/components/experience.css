@@ -1,0 +1,9 @@
+.ExperienceSection{
+    height: 100vh;
+    max-height: 100%;
+    padding: 0rem max(calc((100vw - 1000px) / 2), 7rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

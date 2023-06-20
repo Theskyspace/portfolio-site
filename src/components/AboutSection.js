@@ -7,11 +7,10 @@ export default function AboutSection() {
     <section className='AboutSection-content' id="AboutSection-content">
       <h2><span>01.</span> About Me</h2>
       <div className="inner">
-        <div className="content">
-          <p>Luarem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.Luarem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-          <p>Luarem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-          <p>Luarem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
-          <p>Luarem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div className="about-content">
+          <p>Throughout my journey, I've been privileged to engage in a wide range of projects, encompassing both startup ventures and participation in numerous <span className='highlights'>National</span> and <span className='highlights'>International hackathons</span>. These experiences have served as invaluable opportunities to contribute to the creation of products that truly make a difference in people's lives..</p>
+          <p>At present, my primary focus revolves around the development of accessible and inclusive products, coupled with the crafting of captivating digital experiences. This mission holds utmost importance to me, and I am dedicated to pursuing it not only within the innovative ecosystem of  <span className='highlights'>SayF</span> but also through a diverse array of personal pet projects. By prioritizing inclusivity and fostering a collaborative atmosphere, I aim to leave a positive impact on the world of technology and beyond.</p>
+          <p>Here are a few technologies I’ve been working with recently:</p>
           <ul className="skill-list">
             <li>Django Rest Framework</li>
             <li>Flutter</li>

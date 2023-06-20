@@ -46,7 +46,7 @@ export default function HeroSection() {
         <h4 className='sub-subheading'>Hello, My name is</h4>
         <h1 className='heading'>Akash Joshi</h1>
         <h1 className='subheading'>I build things for the world.</h1>
-        <p>From the moment I laid my hands on a computer, I was captivated by its endless possibilities. It felt like I had acquired superpowers, zipping effortlessly from point A to B. I channeled my creative energy into writing poems in languages like Python, C++, and Dart, using code to solve real-world problems. Today, I'm on a mission to revolutionize the way we save while spending, making it seamless and effortless at <span>SayF.</span></p>
+        <p>From the moment I laid my hands on a computer, I was captivated by its endless possibilities. It felt like I had acquired superpowers, zipping effortlessly from point A to B. I channeled my creative energy into writing poems in languages like Python, C++, and Dart, using code to solve real-world problems. Today, I'm on a mission to revolutionize the way we save while spending, making it seamless and effortless at <span className='highlights'>SayF.</span></p>
       </div>
     </div>
   )
