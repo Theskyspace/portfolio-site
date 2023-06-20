@@ -16,12 +16,12 @@
     flex-direction: column;
     align-items: flex-start;
     text-align: start;
-    height: max(fit-content , 100vh);
-    max-height: 100%;
+    height: fit-content ;
+    min-height: 100vh;
     padding: 0rem max(calc((100vw - 1000px) / 2), 7rem);
 }
 
-.AboutSection-content h2{
+.Section-content h2{
     margin-bottom: 2rem;
     width: 100%;
     font-size: var(--fs-m);
@@ -29,7 +29,7 @@
     padding-top: 100px;
 }
 
-.AboutSection-content h2 span{
+.Section-content h2 span{
     color: var(--green);
     font-size: 1.9rem;
     font-weight: 400;

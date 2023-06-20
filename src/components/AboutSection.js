@@ -1,10 +1,28 @@
-import React from 'react'
+import React , {useRef , useEffect} from 'react'
 import './AboutSection.css'
 import aboutImage from '../Images/theskyspace_about.png'
 
 export default function AboutSection() {
+  const sectionRef = useRef(null);
+
+    const fadeInElement = () => {
+        const sectionTop = sectionRef.current.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+    
+        if (sectionTop < windowHeight) {
+          sectionRef.current.classList.add('fadein');
+        }
+      };
+    
+      useEffect(() => {
+        window.addEventListener('scroll', fadeInElement);
+        return () => {
+          window.removeEventListener('scroll', fadeInElement);
+        };
+      }, []);
+
   return (
-    <section className='AboutSection-content' id="AboutSection-content">
+    <section className='AboutSection-content Section-content' ref={sectionRef}  id="AboutSection-content">
       <h2><span>01.</span> About Me</h2>
       <div className="inner">
         <div className="about-content">
