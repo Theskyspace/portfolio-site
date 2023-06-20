@@ -1,14 +1,114 @@
-.body{
-    height: 100vh;
+:root {
+    --light-purple: #A7C3E5;
+    --green: #64FFDA;
+    --muted-text-color: #C5BFB7;
+    --dark-blue: #133E7C;
+    --font-sans: 'Calibre', 'Inter', 'San Francisco', 'SF Pro Text', -apple-system, system-ui, sans-serif;
+    --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', monospace;
+    --fs-xl: clamp(40px, 8vw, 80px);
+    --fs-m: 2rem;
+    -fs-xs: 1rem;
 }
+
 
 .AboutSection-content{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    height: calc(100vh);
+    align-items: flex-start;
+    text-align: start;
+    height: max(fit-content , 100vh);
     max-height: 100%;
-    padding: 0rem calc((100vw - 1300px) / 2);
+    padding: 0rem max(calc((100vw - 1000px) / 2), 7rem);
+}
+
+.AboutSection-content h2{
+    margin-bottom: 2rem;
+    width: 100%;
+    font-size: var(--fs-m);
+    font-family: var(--font-mono);
+    padding-top: 100px;
+}
+
+.AboutSection-content h2 span{
+    color: var(--green);
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+
+.inner{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    gap: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.inner .about-content{
+    justify-content: start;
+    height: 100%;
+    color: var(--muted-text-color);
+    opacity: 0.8;
+    line-height: 25px;
+}
+
+
+.inner .image{
+    box-sizing: inherit;
+}
+
+
+
+.skill-list{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 10px 10px;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    color: var(--muted-text-color);
+}
+
+.skill-list li::before{
+    content: "▹ ";
+}
+
+
+.image .placeholder{
+    height: 300px;
+    width: 300px;
+    border-radius: 12px;
+}
+
+
+.inner .placeholder img{
+    height: 100%;
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
+    mix-blend-mode: screen
+}
+
+.inner .placeholder img:hover{
+    opacity: 1;
+    mix-blend-mode: normal;
+    transform: translate(-10px , -10px);
+}
+
+
+
+/* Media Screens */
+/* Tablet */
+@media screen and (max-width: 768px){
+    .AboutSection-content{
+        padding: 0rem 2rem;
+    }
+
+    .inner{
+        grid-template-columns: 1fr;
+    }
+
+    .about-content{
+        justify-content: center;
+    }
 }

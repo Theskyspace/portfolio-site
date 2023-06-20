@@ -68,14 +68,14 @@
     color: var(--muted-text-color);
 }
 
-.content p span{
+.highlights{
     color: var(--green);
     animation: blinker 1s linear infinite;
     display: inline-block;
     position: relative;
 }
 
-.content p span:after {
+.highlights:after {
     content: '';
     position: absolute;
     width: 100%;
@@ -87,7 +87,7 @@
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-.content p span:hover::after{
+.highlights:hover::after{
     transform: scaleX(1);
   transform-origin: bottom left;
 }
