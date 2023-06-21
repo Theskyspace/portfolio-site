@@ -14,7 +14,7 @@
     background-color: #010a17c0;
     transition: transform 0.4s;
     backdrop-filter: blur(10px);
-    z-index: 100;
+    z-index: 10000;
 }
 
 .navbar-list {

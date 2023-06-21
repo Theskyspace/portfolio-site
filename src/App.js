@@ -5,6 +5,7 @@ import NavBar from './components/NavBar';
 import Experience from './components/experience';
 import Contact from './components/contact';
 import Work from './components/work';
+import Othernoteworth from './components/othernoteworth';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <AboutSection />
       <Experience />
       <Work />
+      <Othernoteworth />
       <Contact />
     </div>
   );

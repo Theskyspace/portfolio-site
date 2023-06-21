@@ -72,3 +72,15 @@
 .Contact_Footer:hover{
     color: var(--green);
 }
+
+
+@media screen and (max-width: 768px){
+    .contact-content h1{
+        font-size: 3rem;
+    }
+
+    .contact-p{
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
