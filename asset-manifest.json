@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a1263b8.css",
-    "main.js": "/static/js/main.94457d2c.js",
+    "main.css": "/static/css/main.2015a1b6.css",
+    "main.js": "/static/js/main.a33fbd64.js",
     "static/js/787.f3d7924f.chunk.js": "/static/js/787.f3d7924f.chunk.js",
     "static/media/theskyspace_about.png": "/static/media/theskyspace_about.5f2adfcfc025102c51be.png",
+    "static/media/project.jpg": "/static/media/project.3c1590414ab1bd9fe579.jpg",
     "index.html": "/index.html",
-    "main.1a1263b8.css.map": "/static/css/main.1a1263b8.css.map",
-    "main.94457d2c.js.map": "/static/js/main.94457d2c.js.map",
+    "main.2015a1b6.css.map": "/static/css/main.2015a1b6.css.map",
+    "main.a33fbd64.js.map": "/static/js/main.a33fbd64.js.map",
     "787.f3d7924f.chunk.js.map": "/static/js/787.f3d7924f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a1263b8.css",
-    "static/js/main.94457d2c.js"
+    "static/css/main.2015a1b6.css",
+    "static/js/main.a33fbd64.js"
   ]
 }
