@@ -1,0 +1,7 @@
+.Work-section{
+    display: flex;
+    height: fit-content;
+    min-height: 100vh;
+    padding: 0rem max(calc((100vw - 1000px) / 2), 7rem);
+}
+
