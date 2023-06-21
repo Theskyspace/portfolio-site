@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio-site/static/css/main.2f8eed4f.css",
-    "main.js": "/portfolio-site/static/js/main.82c863b5.js",
+    "main.css": "/portfolio-site/static/css/main.1a1263b8.css",
+    "main.js": "/portfolio-site/static/js/main.d942293a.js",
     "static/js/787.f3d7924f.chunk.js": "/portfolio-site/static/js/787.f3d7924f.chunk.js",
     "static/media/theskyspace_about.png": "/portfolio-site/static/media/theskyspace_about.5f2adfcfc025102c51be.png",
     "index.html": "/portfolio-site/index.html",
-    "main.2f8eed4f.css.map": "/portfolio-site/static/css/main.2f8eed4f.css.map",
-    "main.82c863b5.js.map": "/portfolio-site/static/js/main.82c863b5.js.map",
+    "main.1a1263b8.css.map": "/portfolio-site/static/css/main.1a1263b8.css.map",
+    "main.d942293a.js.map": "/portfolio-site/static/js/main.d942293a.js.map",
     "787.f3d7924f.chunk.js.map": "/portfolio-site/static/js/787.f3d7924f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2f8eed4f.css",
-    "static/js/main.82c863b5.js"
+    "static/css/main.1a1263b8.css",
+    "static/js/main.d942293a.js"
   ]
 }
