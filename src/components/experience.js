@@ -27,7 +27,7 @@ export default function Experience() {
 
     return (
         <section className="ExperienceSection Section-content" id='ExperienceSection' ref={sectionRef}>
-            <h2><span>02.</span> Where I've played</h2>
+            <h2 className='Section-heading'><span>02.</span> Where I've played</h2>
             <div className="inner inner-worked">
                 <div className="tab-content">
                     <div className={toggleState === 1 ? "tabs tabs-active" : "tabs"} onClick={() => toggleTabSwitch(1)}>SayF</div>

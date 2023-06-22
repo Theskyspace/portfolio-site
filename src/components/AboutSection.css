@@ -55,6 +55,8 @@
 
 .inner .image{
     box-sizing: inherit;
+    display: flex;
+    justify-content: center;
 }
 
 

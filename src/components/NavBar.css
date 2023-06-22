@@ -14,7 +14,7 @@
     background-color: #010a17c0;
     transition: transform 0.4s;
     backdrop-filter: blur(10px);
-    z-index: 100;
+    z-index: 10000;
 }
 
 .navbar-list {
@@ -95,9 +95,16 @@
         display: flex;
         height: 30px;
         width: 30px;
-        background-color: #64FFDA;
+        /* background-color: #64FFDA; */
         border-radius: 5px;
         margin: 20px;
+    }
+
+   
+
+    .navbar .mobile svg rect{
+        fill: var(--green);
+        height: 12px;
     }
 
     .navbar {

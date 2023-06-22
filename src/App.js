@@ -4,6 +4,9 @@ import HeroSection from './components/HeroSection';
 import NavBar from './components/NavBar';
 import Experience from './components/experience';
 import Contact from './components/contact';
+import Work from './components/work';
+import Othernoteworth from './components/othernoteworth';
+
 function App() {
   return (
     <div className="HeroSection">     
@@ -11,6 +14,8 @@ function App() {
       <HeroSection />
       <AboutSection />
       <Experience />
+      <Work />
+      {/* <Othernoteworth /> */}
       <Contact />
     </div>
   );
