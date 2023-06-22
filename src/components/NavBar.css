@@ -95,9 +95,16 @@
         display: flex;
         height: 30px;
         width: 30px;
-        background-color: #64FFDA;
+        /* background-color: #64FFDA; */
         border-radius: 5px;
         margin: 20px;
+    }
+
+   
+
+    .navbar .mobile svg rect{
+        fill: var(--green);
+        height: 12px;
     }
 
     .navbar {
