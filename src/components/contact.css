@@ -50,7 +50,12 @@
     padding: 1rem;
     border: solid 1px var(--green);
     border-radius: 5px;
-    cursor: pointer;
+}
+
+.Contact_Button a{
+    text-decoration: none;
+    color: var(--green);
+    font-weight: 200;
 }
 
 
