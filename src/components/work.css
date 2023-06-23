@@ -182,7 +182,7 @@
     }
 
     .project-image img {
-        opacity: 0.2;
+        opacity: 0.1;
         width: auto;
         object-fit: cover;
         border-radius: 0px;

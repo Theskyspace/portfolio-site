@@ -29,8 +29,8 @@
 
 .contact-p{
     font-family: var(--font-sans);
+    color: var(--muted-text-color);
     font-weight: 400;
-    opacity: 0.5;
     line-height: 25px;
     /* Hacky way of putting it in the middle. */
     padding-left: 25%;
