@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.26b05206.css",
-    "main.js": "/static/js/main.f11118f2.js",
+    "main.js": "/static/js/main.3f8bcf97.js",
     "static/js/787.f3d7924f.chunk.js": "/static/js/787.f3d7924f.chunk.js",
-    "static/media/theskyspace_about.png": "/static/media/theskyspace_about.5f2adfcfc025102c51be.png",
+    "static/media/theskyspace_about.png": "/static/media/theskyspace_about.39776d9f4bb771c03c27.png",
     "static/media/NDA.png": "/static/media/NDA.8b5bbb051d4552d2829c.png",
     "static/media/NeoEdu.png": "/static/media/NeoEdu.3622c2c19341ce2c64f4.png",
     "static/media/finmom.png": "/static/media/finmom.5daa68c3d9c0b90ef213.png",
     "static/media/resume.pdf": "/static/media/resume.3d583d6ea6a6636c1048.pdf",
     "index.html": "/index.html",
     "main.26b05206.css.map": "/static/css/main.26b05206.css.map",
-    "main.f11118f2.js.map": "/static/js/main.f11118f2.js.map",
+    "main.3f8bcf97.js.map": "/static/js/main.3f8bcf97.js.map",
     "787.f3d7924f.chunk.js.map": "/static/js/787.f3d7924f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26b05206.css",
-    "static/js/main.f11118f2.js"
+    "static/js/main.3f8bcf97.js"
   ]
 }
