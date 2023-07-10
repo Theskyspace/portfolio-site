@@ -1,15 +1,16 @@
 :root{
-  --dark-bg: #010A17;
+  --dark-bg: #000e23;
 }
 
 body{
   height: 100%;
   width: 100%;
-  background-color: var(--dark-bg);
+  background: var(--dark-bg);
   color: white;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
   user-select: none;
+
 }
 
 /* The folllowing is the configuration of scroll bar */
@@ -28,3 +29,40 @@ body{
   background: #A19A8F;
   border-radius: 10px;
 }
+
+
+
+/* Animations */
+.fadeup-enter{
+  animation: fadeup 0.5s ease-in-out;
+  animation-fill-mode: forwards;  
+}
+
+@keyframes fadeup {
+  0% {
+      opacity: 0;
+      transform: translateY(20px);
+      visibility: visible;
+  }
+ 
+  
+  100% {
+      opacity: 1;
+      transform: translateY(0);
+      visibility: visible;
+  }
+}
+
+.fadeIn{
+  animation: fadeIn 0.5s ease-in-out 0s forwards;
+  opacity: 0;
+}
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0.9;
+  }
+}
+

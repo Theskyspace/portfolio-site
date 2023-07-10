@@ -11,7 +11,7 @@
     position: fixed;
     height: var(--nav-height);
     width: 100%;
-    background-color: #010a17c0;
+    background-color: --dark-bg;
     transition: transform 0.4s;
     backdrop-filter: blur(10px);
     z-index: 10000;

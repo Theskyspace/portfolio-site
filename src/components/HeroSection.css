@@ -150,6 +150,11 @@
     .vertical-line{
         visibility: hidden;
     }
+
+    .vertical-line .fadeIn{
+        animation: none;
+    }
+
     .HeroSection-content{
         padding: 0rem 2rem;
     }

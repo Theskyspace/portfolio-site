@@ -6,11 +6,11 @@ export default function HeroSection() {
   return (
     <div className='HeroSection-content'>
       <div className="content">
-        <div className="vertical-line left">
+        <div className="vertical-line left fadeIn" style={{ animationDelay: "1400ms"}} >
           <span className="line-text"><a href='mailto:theskyspacedev@gmail.com'>theskyspacedev@gmail.com</a></span>
           <span className="line"></span>
         </div>
-        <div className="vertical-line right">
+        <div className="vertical-line right fadeIn" style={{ animationDelay: "1400ms"}}>
           <a href="https://www.linkedin.com/in/akash-joshi-47a92b195/" rel="noreferrer" target="_blank" >
             <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none"   className="feather feather-linkedin">
               <title>LinkedIn</title>
@@ -43,10 +43,10 @@ export default function HeroSection() {
           </a>
           <span className="line"></span>
         </div>
-        <h4 className='sub-subheading'>Hello, My name is</h4>
-        <h1 className='heading'>Akash Joshi</h1>
-        <h1 className='subheading'>I build products for the world.</h1>
-        <p>From the moment I laid my hands on a computer, I was captivated by its endless possibilities. It felt like I had acquired superpowers, zipping effortlessly from point A to B. I channeled my creative energy into writing poems in languages like Python, C++, and Dart, using code to solve real-world problems. Today, I'm on a mission to revolutionize the way we save while spending, making it seamless and effortless at <span className='highlights'>SayF.</span></p>
+        <h4 className='sub-subheading fadeup-enter' style={{ animationDelay: "800ms", visibility: 'hidden'}} >Hello, My name is</h4>
+        <h1 className='heading fadeup-enter' style={{ animationDelay: "900ms", visibility: 'hidden'}}>Akash Joshi</h1>
+        <h1 className='subheading fadeup-enter' style={{ animationDelay: "1000ms", visibility: 'hidden'}}>I build products for the world.</h1>
+        <p className='fadeup-enter' style={{ animationDelay: "1000ms", visibility: 'hidden'}}>From the moment I laid my hands on a computer, I was captivated by its endless possibilities. It felt like I had acquired superpowers, zipping effortlessly from point A to B. I channeled my creative energy into writing poems in languages like Python, C++, and Dart, using code to solve real-world problems. Today, I'm on a mission to revolutionize the way we save while spending, making it seamless and effortless at <span className='highlights'>SayF.</span></p>
       </div>
     </div>
   )
