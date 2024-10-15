@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './NavBar.css'
 import { Link } from 'react-scroll'
-import  resumePDF  from '../assets/resume.pdf'
+import  resumePDF  from '../assets/Akash_2024.pdf'
 
 
 export default function NavBar() {

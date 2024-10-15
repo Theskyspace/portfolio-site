@@ -34,7 +34,7 @@ function Home() {
 }
 const resume = () => {
   // Replace "resume.pdf" with the path to your PDF file
-  const pdfUrl = "/static/media/resume.3d583d6ea6a6636c1048.pdf";
+  const pdfUrl = "/static/media/Akash_2024.dc8f35e5f23309edffdc.pdf";
   window.location.href = pdfUrl;
   return null; // Return null to prevent rendering anything for this component
 };
